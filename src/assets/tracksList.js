@@ -197,4 +197,121 @@ export default [
         title: "Ели мясо мужики",
         artists: "Король и шут",
       },
+      {
+        id: 23,
+        src: "https://mp3uks.ru/mp3/files/madk1d-tolpy-mp3.mp3",
+        preview:
+          "https://source.boomplaymusic.com/group10/M00/05/18/59356e03f46b4924acc9033f1ab99d74_464_464.jpg",
+        duration: 90,
+        title: "Толпы",
+        artists: "madk1d",
+      },
+      {
+        id: 24,
+        src: "https://patefon.org/load/1693566311/shadowraze_-_sunder_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/7852894/e457a99b.a.25285209-1/150x150",
+        duration: 106,
+        title: "sunder",
+        artists: "shadowraze",
+      },
+      {
+        id: 25,
+        src: "https://patefon.org/load/2035245959/shadowraze_GENJUTSU_-_1000-7_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/4446014/09b5346f.a.16688923-1/150x150",
+        duration: 127,
+        title: "1000-7",
+        artists: "shadowraze, GENJUTSU",
+      },
+      {
+        id: 26,
+        src: "https://patefon.org/load/1119315902/shadowraze_-_shadowfiend_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/5559490/47820592.a.18410907-1/150x150",
+        duration: 143,
+        title: "shadowfiend",
+        artists: "shadowraze",
+      },
+      {
+        id: 27,
+        src: "https://patefon.org/load/445975443/shadowraze_-_astral_step_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/5099136/f3b9060f.a.19005740-1/150x150",
+        duration: 121,
+        title: "astral step",
+        artists: "shadowraze",
+      },
+      {
+        id: 28,
+        src: "https://patefon.org/load/1583537443/shadowraze_-_showdown_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/5576540/ccdf52f7.a.21783098-1/150x150",
+        duration: 120,
+        title: "showdown",
+        artists: "shadowraze",
+      },
+      {
+        id: 29,
+        src: "https://patefon.org/load/503302885/shadowraze_LXNER_quiizzzmeow_-_adaptive_strike_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/5413882/df0eb96f.a.20914080-1/150x150",
+        duration: 136,
+        title: "adaptive strike",
+        artists: "shadowraze, quiizzzmeow, LXNER",
+      },
+      {
+        id: 30,
+        src: "https://patefon.org/load/906807053/shadowraze_quiizzzmeow_Midix_jzxdx_-_JDM_NFS_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/9737237/218b6cb8.a.26087829-1/150x150",
+        duration: 145,
+        title: "JDM NFS",
+        artists: "shadowraze, quiizzzmeow, Midix, jzxdx",
+      },
+      {
+        id: 31,
+        src: "https://patefon.org/load/2101731082/zxcursed_-_Never_Enough_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/5413909/ea93af48.a.21917442-1/150x150",
+        duration: 142,
+        title: "Never Enough",
+        artists: "zxcursed",
+      },
+      {
+        id: 32,
+        src: "https://patefon.org/load/474036848/zxcursed_-_mana_break_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/5413882/73635824.a.23730020-1/150x150",
+        duration: 93,
+        title: "mana break",
+        artists: "zxcursed",
+      },
+      {
+        id: 33,
+        src: "https://patefon.org/load/479757853/zxcursed_-_fatality_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/5502420/e8d4fd0c.a.24388964-1/150x150",
+        duration: 92,
+        title: "fatality",
+        artists: "zxcursed",
+      },
+      {
+        id: 34,
+        src: "https://patefon.org/load/833916264/femlove_-_otografiruyu_zakat_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/2350646/843290d3.a.11509371-1/150x150",
+        duration: 156,
+        title: "Фотографирую закат",
+        artists: "fem.love",
+      },
+      {
+        id: 35,
+        src: "https://patefon.org/load/1059982058/femlove_-_1000-7_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/4010467/9b56e2ce.a.16533921-1/150x150",
+        duration: 117,
+        title: "1000-7",
+        artists: "fem.love",
+      },
   ];
