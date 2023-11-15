@@ -1,9 +1,10 @@
-import { useContext, useState, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AudioContext } from "../../context/AudioContext";
 import style from "./playbar.module.scss";
 import { Slider, IconButton } from "@mui/material";
 import { Pause, PlayArrow } from "@mui/icons-material";
 import secondsToMMSS from "../../utils/secondsToMMSS";
+import tracksList from "../../assets/tracksList";
 
 const TimeControls = () => {
   const { audio, currentTrack } = useContext(AudioContext);
@@ -13,13 +14,13 @@ const TimeControls = () => {
 
   const formattedCurrentTime = secondsToMMSS(currentTime);
   const sliderCurrentTime = Math.round((currentTime / duration) * 100);
-
+  
   const handleChangeCurrentTime = (_, value) => {
     const time = Math.round((value / 100) * duration);
     setCurrentTime(time);
     audio.currentTime = time;
   };
-
+  
   const handleChangeVolume = (_, value) => {
     const normalizedVolume = value / 100;
     setVolume(normalizedVolume);
@@ -39,7 +40,7 @@ const TimeControls = () => {
       clearInterval(timeInterval);
       clearInterval(volumeInterval);
     };
-  }, []);
+  }, [audio]);
 
   return (
     <>
@@ -65,9 +66,25 @@ const TimeControls = () => {
 };
 
 const Playbar = () => {
-  const { currentTrack, handleToggleAudio, isPlaying } = useContext(AudioContext);
+  const { audio, currentTrack, handleToggleAudio, isPlaying } = useContext(AudioContext);
   const { title, artists, preview, duration } = currentTrack;
   const formattedDuration = secondsToMMSS(duration);
+
+  const handleTrackEnd = () => {
+    const nextTrackId = currentTrack.id + 1;
+    const nextTrack = tracksList.find(track => track.id === nextTrackId);
+
+    if (nextTrack) {
+      handleToggleAudio(nextTrack); 
+    }
+  };
+
+  useEffect(() => {
+    audio.addEventListener("ended", handleTrackEnd);
+    return () => {
+      audio.removeEventListener("ended", handleTrackEnd);
+    };
+  }, [audio, currentTrack, handleTrackEnd]);
 
   return (
     <div className={style.playbar}>
