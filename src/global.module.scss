@@ -1,17 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  
-    &::-webkit-scrollbar {
-      display: none;
-    }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &::-webkit-scrollbar {
+    display: none;
   }
+}
+
+.wrapper {
+  display: flex;
+  padding: 10px;
+  gap: 20px; // Уменьшаем зазор для мобильных устройств
+  width: 90vw;
+  margin: auto;
   
-  .wrapper {
-    display: flex;
-    padding: 10px;
-    gap: 60px;
-    width: min(600px, 90vw);
-    margin: auto;
+  @media screen and (min-width: 601px) {
+    gap: 60px; // Используем больший зазор для больших экранов
+    width: 600px; // Исользуем фиксированную ширину для больших экранов
   }
+}

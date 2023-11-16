@@ -12,18 +12,33 @@
     padding: 14px;
     font-size: 18px !important;
   }
+  @media (max-width: 600px) {
+    min-width: 95%;
+    margin: 10px;
+    padding: 10px;
+  }
 }
 
 .list {
-    height: 700px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   gap: 24px;
   flex: 1;
   margin: 10px 0;
-  max-height: calc(100vh - 195px);
+  max-height: calc(90vh - 195px);
+  min-width: 300px;
+  width: auto;
   overflow: auto;
   padding: 15px;
   border: 1px solid #eee;
   border-radius: 20px;
+
+  @media (max-width: 600px) {
+    height: calc(84vh - 160px); // Учтите высоту любого другого элемента в вашем макете
+    max-height: calc(85vh - 160px); // Учтите высоту любого другого элемента в вашем макете
+    min-width: 90%;
+    margin: 0;
+    padding: 10px;
+  }
 }
