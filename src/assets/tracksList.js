@@ -314,4 +314,103 @@ export default [
         title: "1000-7",
         artists: "fem.love",
       },
+      {
+        id: 36,
+        src: "https://patefon.org/load/257812269/MJEJJBI_BJEJJBI_-_Askorbinka_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/5502420/a06fb241.a.24290180-1/150x150",
+        duration: 129,
+        title: "Аскорбинка",
+        artists: "МЭЙБИ БЭЙБИ",
+      },
+      {
+        id: 37,
+        src: "https://patefon.org/load/677531972/dora_MJEJJBI_BJEJJBI_-_Barbisajjz_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/6021799/582f1818.a.22647617-1/150x150",
+        duration: 184,
+        title: "Барбисайз",
+        artists: "дора, МЭЙБИ БЭЙБИ",
+      },
+      {
+        id: 38,
+        src: "https://patefon.org/load/445572802/dora_-_Dora_dura_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/2266607/25bb0801.a.8888246-1/150x150",
+        duration: 133,
+        title: "Дора дура",
+        artists: "дора",
+      },
+      {
+        id: 39,
+        src: "https://patefon.org/load/500359403/Thunderstruck_-_Thunderstruck_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/28589/fb6a170c.a.416668-1/150x150",
+        duration: 290,
+        title: "Thunderstruck",
+        artists: "Thunderstruck",
+      },
+      {
+        id: 40,
+        src: "https://patefon.org/load/1526293381/Oomph_-_Labyrinth_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/139444/57e53aa3.p.95681/150x150",
+        duration: 253,
+        title: "Labyrinth",
+        artists: "Oomph!",
+      },
+      {
+        id: 41,
+        src: "https://patefon.org/load/1481580251/Radio_Tapok_-_Sonne_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/2433207/fb85c1a5.a.11293519-1/150x150",
+        duration: 262,
+        title: "Sonne",
+        artists: "Radio Tapok",
+      },
+      {
+        id: 42,
+        src: "https://patefon.org/load/1623099573/Radio_Tapok_-_Rasputin_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/9838169/bd1b43ea.a.26814047-2/150x150",
+        duration: 224,
+        title: "Распутин",
+        artists: "Radio Tapok",
+      },
+      {
+        id: 43,
+        src: "https://patefon.org/load/1701199690/Powerwolf_-_Demons_Are_a_Girls_Best_Friend_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/114728/51b31482.a.5579584-2/150x150",
+        duration: 218,
+        title: "Demons Are a Girl's Best Friend",
+        artists: "Powerwolf",
+      },
+      {
+        id: 44,
+        src: "https://patefon.org/load/1679523942/Korol_i_SHut_-_Proklyatyjj_staryjj_dom_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/5503671/8d93e509.a.7019820-3/150x150",
+        duration: 257,
+        title: "Проклятый старый дом",
+        artists: "Король и Шут",
+      },
+      {
+        id: 45,
+        src: "https://patefon.org/load/1573704303/Eminem_-_Without_Me_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/34131/6fd4311d.a.4846-2/150x150",
+        duration: 291,
+        title: "Without Me",
+        artists: "Eminem",
+      },
+      {
+        id: 46,
+        src: "https://patefon.org/load/1330456952/Rammstein_-_DEUTSCHLAND_(patefon.org).mp3",
+        preview:
+          "https://avatars.yandex.net/get-music-content/98892/6c5e3a65.a.7524923-1/150x150",
+        duration: 322,
+        title: "DEUTSCHLAND",
+        artists: "Rammstein",
+      },
   ];
