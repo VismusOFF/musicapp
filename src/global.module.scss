@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/697747050909007952/1196119138649767997/snapedit_1705247271277.png?ex=65b677c1&is=65a402c1&hm=bd9a7edc36674d3df9dc4385ffaee7f4f91af976f81d5378006aaca5c970ab2b&);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  padding: 10px;
+  gap: 20px; // Уменьшаем зазор для мобильных устройств
+  width: 90vw;
+  margin: auto;
+  
+  @media screen and (min-width: 601px) {
+    gap: 60px; // Используем больший зазор для больших экранов
+    width: 600px; // Исользуем фиксированную ширину для больших экранов
+  }
+}
