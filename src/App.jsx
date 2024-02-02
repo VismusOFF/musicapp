@@ -6,7 +6,6 @@ import style from "./global.module.scss";
 const App = () => (
   <div className={style.wrapper}>
     <MainPage />
-    <Playlist/>
     <Playbar />
   </div>
 );

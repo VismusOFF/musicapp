@@ -4,3 +4,22 @@ html, body {
     padding: 0;
     position: fixed;
   }
+
+@import 'variables.module.scss';
+
+.header {
+  background-color: $main-background-color;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+//  .body {
+//  color: #fff;
+//  background: none;
+//  background: black;
+//}
