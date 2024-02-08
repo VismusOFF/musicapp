@@ -3,13 +3,12 @@ html, body {
     margin: 0;
     padding: 0;
     position: fixed;
+    background-image: url(https://cdn.discordapp.com/attachments/569445055648104448/1202998135757086810/snapedit_1705247271277.jpg?ex=65cf7e52&is=65bd0952&hm=cf2dcce340b5eba66c05a11fa27daa6cef4aa664a88a7d59d51fe8c41be79bbf&);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 @import 'variables.module.scss';
-
-.header {
-  background-color: $main-background-color;
-}
 
 .header {
   width: 100%;
@@ -18,8 +17,11 @@ html, body {
   align-items: center;
 }
 
-//  .body {
-//  color: #fff;
-//  background: none;
-//  background: black;
-//}
+.header {
+  background-color: var(--main-background-color);
+  color: white;
+}
+
+.darkTheme {
+  background-color: var(--dark-main-background-color);
+}
