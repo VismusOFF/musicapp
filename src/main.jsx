@@ -1,12 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import AudioProvider from "./context/AudioContext";
-import Header from "./components/header/headet";
+import Purple from "./Purple";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <AudioProvider>
-    <Header/>
-    <App />
-  </AudioProvider>
+  <BrowserRouter>
+    <AudioProvider>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/purple" element={<Purple />} />
+      </Routes>
+    </AudioProvider>
+  </BrowserRouter>
 );

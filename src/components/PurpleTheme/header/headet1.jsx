@@ -2,7 +2,7 @@ import React from 'react';
 import mainIcon from './main.png';
 import style from './header.module.scss';
 
-const Header = () => {
+const Header1 = () => {
 
   return (
     <div className={style.header}>
@@ -12,4 +12,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header1;

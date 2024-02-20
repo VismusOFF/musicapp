@@ -1,12 +1,21 @@
 import MainPage from "./pages/MainPage/MainPage";
-import Playbar from "./components/Playbar/Playbar";
 import Playlist from "./components/Playlist/Playlist";
 import style from "./global.module.scss";
+import Header from "./components/header/headet";
+import PurpleTheme from "./components/PurpleTheme/PurpleTheme";
+import Header1 from "./components/PurpleTheme/header/headet1";
+import { Link } from "react-router-dom";
 
 const App = () => (
-  <div className={style.wrapper}>
-    <MainPage />
-    <Playbar />
+  <div>
+    <Header/>
+    <div className={style.wrapper}>
+      <MainPage/>
+      
+    </div>
+    <div className={style.navigateR}>
+      <Link to="/purple">Purple Theme</Link>
+    </div>
   </div>
 );
 

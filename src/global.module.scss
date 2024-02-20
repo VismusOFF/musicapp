@@ -8,12 +8,6 @@
   }
 }
 
-body {
-  background-image: url(https://cdn.discordapp.com/attachments/697747050909007952/1196119138649767997/snapedit_1705247271277.png?ex=65b677c1&is=65a402c1&hm=bd9a7edc36674d3df9dc4385ffaee7f4f91af976f81d5378006aaca5c970ab2b&);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .wrapper {
   display: flex;
   padding: 10px;
@@ -24,5 +18,27 @@ body {
   @media screen and (min-width: 601px) {
     gap: 60px; // Используем больший зазор для больших экранов
     width: 600px; // Исользуем фиксированную ширину для больших экранов
+  }
+}
+
+.navigateR {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin: 10px;
+  color: #cc0000;
+  :visited {
+    color: #cc0000;
+  }
+}
+
+.navigateP {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin: 10px;
+  color: #8000a0;
+  :visited {
+    color: #8000a0;
   }
 }

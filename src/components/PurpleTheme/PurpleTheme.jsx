@@ -1,9 +1,11 @@
 import { useState } from "react";
 import tracksList from "../../assets/tracksList";
-import style from "./mainPage.module.scss";
-import Track from "../../components/Track/Track";
+import style from "./Purple.module.scss";
+import Playbar1 from "./Playbar/Playbar1";
 import { Input } from "@mui/material";
-import Playbar from "../../components/playbar/playbar";
+import Track1 from "./Track/Track1";
+
+
 
 const runSearch = (query) => {
   if (!query) {
@@ -19,7 +21,7 @@ const runSearch = (query) => {
   );
 };
 
-const MainPage = () => {
+const PurpleTheme = () => {
   const [tracks, setTracks] = useState(tracksList);
 
   const handleChange = (event) => {
@@ -36,12 +38,12 @@ const MainPage = () => {
       />
       <div className={style.list}>
         {tracks.map((track) => (
-          <Track key={track.id} {...track} />
+          <Track1 key={track.id} {...track} />
         ))}
       </div>
-      <Playbar/>
+      <Playbar1/>
     </div>
   );
 };
 
-export default MainPage;
+export default PurpleTheme;
