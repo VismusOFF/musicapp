@@ -3,7 +3,7 @@ import tracksList from "../../assets/tracksList";
 import style from "./mainPage.module.scss";
 import Track from "../../components/Track/Track";
 import { Input } from "@mui/material";
-import Playbar from "../../components/playbar/playbar";
+import Playbar from "../../components/Playbar/Playbar";
 
 const runSearch = (query) => {
   if (!query) {
