@@ -1,9 +1,9 @@
 import { useState } from "react";
 import tracksList from "../../assets/tracksList";
 import style from "./Purple.module.scss";
-import Playbar1 from "./Playbar/Playbar1";
+import Playbar1 from "./Playbar1/Playbar1";
 import { Input } from "@mui/material";
-import Track1 from "./Track/Track1";
+import Track1 from "./Track1/Track1";
 
 
 
